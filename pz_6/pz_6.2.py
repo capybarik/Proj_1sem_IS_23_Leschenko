@@ -5,6 +5,7 @@
 
 
 arr = [1, 2, 2, 3, 4, 4, 4, 5, 6]
+print(arr)
 
 count = 0 # Количество различных элементов
 for i in range(len(arr) - 1):
