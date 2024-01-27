@@ -21,8 +21,8 @@ multiplication = [number * numbers[0] for number in numbers]
 
 # Создаем новый файл с обработанной последовательностью
 with open('numbers_info.txt', 'w', encoding='utf-8') as file:
-    file.write(f'Исходные данные: {numbers}\n')
-    file.write(f'Количество элементов: {len(numbers)}\n')
-    file.write(f'Индекс последнего минимального элемента: {min_index}\n')
-    file.write(f'Умножаем все элементы на первый элемент: {multiplication}\n')
+    file.write(f'Исходные данные >> {numbers}\n')
+    file.write(f'Количество элементов >> {len(numbers)}\n')
+    file.write(f'Индекс последнего минимального элемента >> {min_index}\n')
+    file.write(f'Умножаем все элементы на первый элемент >> {multiplication}\n')
 
