@@ -11,7 +11,6 @@ print('Последовательность целых чисел >> ', numbers)
 
 max_num = 0
 min_num = 0
-multiplication = 1
 for num in numbers:
     if num > 0 and num > max_num:
         max_num = num
