@@ -2,7 +2,7 @@
 
 import random
 
-matrix= [[random.randint(-10, 10) for _ in range(4)] for _ in range(3)]
+matrix= [[random.randint(-10, 10) for _ in range(4)] for _ in range(4)]
 print('Исходная матрица >> ')
 for row in matrix:
     print(*row)
