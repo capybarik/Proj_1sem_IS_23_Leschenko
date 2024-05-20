@@ -5,15 +5,15 @@
 # площади.
 
 def squares(a, b):
-    s = 0
+    squares = 0
     while a > 0 and b > 0:
         if a > b:
-            s += a // b #увеличение переменной s на целое число от деления A на B
+            squares += a // b #увеличение переменной s на целое число от деления A на B
             a %= b
         else:
-            s += b // a
+            squares += b // a
             b %= a
-    return s
+    return squares
 try:
     a = int(input("Введите длину стороны A >> "))
     b = int(input("Введите длину стороны B >> "))
