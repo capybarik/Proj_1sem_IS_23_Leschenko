@@ -38,7 +38,7 @@ print(f"Файл с самым коротким именем: {os.path.basename(
 #Использовать функцию os.startfile().
 
 os.chdir('C:/Users/nasta/PycharmProjects/Proj_1sem_IS_23/reports')
-#os.startfile('pz_17.pdf')
+os.startfile('pz_17.pdf')
 
 #ЗАДАНИЕ 5
 #удалить файл test.txt.
